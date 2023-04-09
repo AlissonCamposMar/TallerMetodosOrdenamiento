@@ -25,7 +25,9 @@ public class Matriz {
 
     public static void calculoTiempoEjecucionMetodos(){
 
-        int tam = 11400;
+        //5000, 7000, 9000, 11500
+
+        int tam = 11600;
         double[] arreglo = ingresarNumeros(tam);
 
         System.out.println("\nTamanio del arreglo es: " + tam);
@@ -67,13 +69,13 @@ public class Matriz {
         System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //5 Método InsertionSortRecursive
-        tiempoInicioEjecucion = System.nanoTime();
+       /* tiempoInicioEjecucion = System.nanoTime();
         InsertionSortRecursive(arreglo);
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
         System.out.println("Tiempo de ejecución en segundos: " + segundos);
-
+        */
         //6 Método shellSort
         tiempoInicioEjecucion = System.nanoTime();
         shellSort(arreglo);
