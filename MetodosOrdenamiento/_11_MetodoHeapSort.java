@@ -4,7 +4,7 @@ public class _11_MetodoHeapSort {
 
     public static void HeapSort(double arreglo[]){
 
-        System.out.println("Método HeapSort");
+        System.out.println("\n\n11. Método HeapSort");
 
         // 1. Construye un gran montón superior
         for(int i=arreglo.length/2-1;i>=0;i--){
@@ -17,6 +17,7 @@ public class _11_MetodoHeapSort {
             adjustHeap (arreglo, 0, j); // Reajustar el montón
 
         }
+        System.out.println("Arreglo ordenado");
     }
 
     /**

@@ -9,7 +9,7 @@ public class _7_MetodoBucketSort<T extends Number & Comparable<T>>{
 
     public static void BucketSort(double[] arreglo) {
 
-        System.out.println("\nMétodo shellSort\n");
+        System.out.println("\n\n7. Método shellSort");
 
         if (arreglo == null || arreglo.length <= 1) {
             return;
@@ -44,5 +44,6 @@ public class _7_MetodoBucketSort<T extends Number & Comparable<T>>{
                 arreglo[index++] = elemento;
             }
         }
+        System.out.println("Arreglo ordenado");
     }
 }

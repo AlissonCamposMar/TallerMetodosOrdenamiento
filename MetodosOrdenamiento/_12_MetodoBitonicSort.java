@@ -4,8 +4,9 @@ public class _12_MetodoBitonicSort {
 
 
     public static void BitonicSort(double arreglo[]){
-
+        System.out.println("\n\n12. BitonicSort");
         bitonicSort(arreglo, 0, arreglo.length, 1);
+        System.out.println("Arreglo ordenado");
     }
 
     public static void bitonicSort(double[] arreglo, int low, int longitud, int up) {

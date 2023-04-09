@@ -2,9 +2,11 @@ package MetodosOrdenamiento;
 
 public class _14_MetodoBinaryInsertionSort {
     public static void BinaryInsertionSort(double[] arreglo) {
+
+        System.out.println("\n\n14. Método BinaryInsertionSort");
         int tam = arreglo.length;
-        System.out.println("Método BinaryInsertionSort");
         insertionSort(arreglo, tam);
+        System.out.println("Arreglo ordenado");
     }
 
     static void insertionSort(double[] arreglo, int n) {

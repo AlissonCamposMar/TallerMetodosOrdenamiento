@@ -8,7 +8,7 @@ public class _16_RadixSort {
      */
     public static void RadixSort(double[] arreglo){
 
-        System.out.println("Método RadixSort");
+        System.out.println("\n\n16. Método RadixSort");
 
         if (arreglo.length <= 1) {
             return; // Caso base: el arreglo ya está ordenado
@@ -20,6 +20,7 @@ public class _16_RadixSort {
         for (double exp = 1; maximo / exp > 0; exp *= 10) {
             countingSort(arreglo, exp); // Ordenar el arreglo utilizando Counting Sort con el dígito actual
         }
+        System.out.println("Arreglo ordenado");
     }
 
     /**

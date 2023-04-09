@@ -28,7 +28,7 @@ public class Matriz {
         int tam = 11400;
         double[] arreglo = ingresarNumeros(tam);
 
-        System.out.println("\nTamanio del arreglo es: " + tam + "\n");
+        System.out.println("\nTamanio del arreglo es: " + tam);
 
 
         long tiempoInicioEjecucion, tiempoFinEjecucion, totalTiempoEjecucion;
@@ -40,7 +40,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //2 Metodo BurbujaDobleDireccion
         tiempoInicioEjecucion = System.nanoTime();
@@ -48,7 +48,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //3 Metodo PorSeleccion
         tiempoInicioEjecucion = System.nanoTime();
@@ -56,7 +56,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //4 Método porInseccion
         tiempoInicioEjecucion = System.nanoTime();
@@ -64,7 +64,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //5 Método InsertionSortRecursive
         tiempoInicioEjecucion = System.nanoTime();
@@ -72,7 +72,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //6 Método shellSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -80,7 +80,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //7 Método BucketSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -88,7 +88,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //8 Método MergeSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -96,7 +96,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //9 Método QuickSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -104,7 +104,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //10 Método StoogeSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -112,7 +112,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //11 Método HeapSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -120,7 +120,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //12 Método BitonicSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -128,7 +128,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //13 Método GnomeSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -136,7 +136,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //14 Método BinaryInsertionSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -144,7 +144,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //15 Método StrandSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -152,7 +152,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //16 Método RadixSort
         tiempoInicioEjecucion = System.nanoTime();
@@ -160,7 +160,7 @@ public class Matriz {
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
-        System.out.println("\nTiempo de ejecución en segundos: " + segundos);
+        System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
     }
 

@@ -2,6 +2,12 @@ package MetodosOrdenamiento;
 
 public class _9_MetodoQuickSort {
 
+    public static void QuickSort(double[] arreglo){
+        System.out.println("\n\n9. Método Quicksort");
+        quickSort(arreglo,0, arreglo.length-1);
+        System.out.println("Arreglo ordenado");
+    }
+
     // Una función de utilidad para intercambiar dos elementos
     static void swap(double[] arreglo, int i, int j) {
         double temp = arreglo[i];
@@ -62,8 +68,4 @@ public class _9_MetodoQuickSort {
         }
     }
 
-    public static void QuickSort(double[] arreglo){
-        System.out.println("Método Quicksort");
-        quickSort(arreglo,0, arreglo.length-1);
-    }
 }

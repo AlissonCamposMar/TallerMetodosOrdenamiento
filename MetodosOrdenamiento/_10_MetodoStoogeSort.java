@@ -3,8 +3,9 @@ package MetodosOrdenamiento;
 public class _10_MetodoStoogeSort {
 
     public static void StoogeSort (double[] arreglo){
-        System.out.println("Método StoogeSort");
+        System.out.println("\n\n10. Método StoogeSort");
         stoogeSort(arreglo, 0, 0);
+        System.out.println("Arreglo ordenado");
     }
     public static double[] stoogeSort(double[] arreglo, int l, int h) {
         if (l >= h)

@@ -2,7 +2,7 @@ package MetodosOrdenamiento;
 
 public class _13_MetodoGnomeSort {
     public static void GnomeSort(double[] arreglo) {
-        System.out.println("\nMetodo GnomeSort");
+        System.out.println("\n\n13. GnomeSort");
 
         int index = 0;// Posición de inicio
 
@@ -19,6 +19,7 @@ public class _13_MetodoGnomeSort {
                 index--;
             }
         }
+        System.out.println("Arreglo ordenado");
     }
 
 }

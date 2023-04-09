@@ -3,8 +3,9 @@ package MetodosOrdenamiento;
 public class _5_MetodoRecursivoInsertionSort {
 
     public static void InsertionSortRecursive(double arreglo[]){
-        System.out.println("\n\nMétodo insertionSortRecursive");
+        System.out.println("\n\n5. Método insertionSortRecursive");
         InsercionRecursiva(arreglo, arreglo.length);
+        System.out.println("Arreglo ordenado");
     }
     public static void InsercionRecursiva(double arreglo[], int tamArr){
 

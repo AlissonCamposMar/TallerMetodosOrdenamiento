@@ -7,7 +7,7 @@ import java.util.List;
 public class _15_MetodoStrandSort {
     public static void StrandSort(double[] arreglo) {
 
-        System.out.println("Método StrandSort");
+        System.out.println("\n\n15. Método StrandSort");
 
         if (arreglo.length <= 1) {
             return;
@@ -32,6 +32,7 @@ public class _15_MetodoStrandSort {
 
             sorted = mergeLists(sorted, sublist);
         }
+        System.out.println("Arreglo ordenado");
     }
 
     private static List<Double> mergeLists(List<Double> list1, List<Double> list2) {
