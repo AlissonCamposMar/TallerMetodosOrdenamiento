@@ -1,5 +1,3 @@
-package MetodosOrdenamiento;
-
 import static MetodosOrdenamiento._10_MetodoStoogeSort.StoogeSort;
 import static MetodosOrdenamiento._10_MetodoStoogeSort.stoogeSort;
 import static MetodosOrdenamiento._11_MetodoHeapSort.HeapSort;
