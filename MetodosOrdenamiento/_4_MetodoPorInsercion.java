@@ -4,19 +4,6 @@ public class _4_MetodoPorInsercion {
 
     public static void porInsercion( double arreglo[] ) {
 
-        /*int i;
-        double llave;
-        System.out.println("\n\n Metodo por inserción\n");
-        for ( int j = 1 ; j < arreglo.length ; j++ ) {
-            llave = arreglo[ j ];
-            i = j - 1;
-            while( i >= 0 && arreglo[ i ] > llave ) {
-                arreglo[i + 1] = arreglo[ i ];
-                i--;
-            }
-            arreglo[i + 1] = llave;
-        }
-        System.out.println("\nArreglo ordenado\n");*/
         System.out.println("\n\n Metodo por inserción");
         int n = arreglo.length;
         for (int i = 1; i < n; ++i) {
