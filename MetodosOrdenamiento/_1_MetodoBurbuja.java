@@ -13,7 +13,7 @@ public class _1_MetodoBurbuja {
         /**
          * Ordenado de forma creciente
          */
-        System.out.println("\n\n1. Método burbuja");
+        System.out.println("\n\n1. Burbuja");
 
         for( int j = 1 ; j < tam ; j++) {
             for( int i = 0 ; i < tam - 1 ; i++) {

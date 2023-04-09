@@ -10,7 +10,7 @@ public class _2_MetodoBurbujaDobleDireccion {
         ultimo = x.length - 1;
         dir = x.length - 1;
 
-        System.out.println("\n\n2. Método burbuja en doble dirección");
+        System.out.println("\n\n2. Burbuja En Doble Dirección");
 
         while ( ultimo >= primero ) {
             for( int i = ultimo ; i >= primero ; i--) {

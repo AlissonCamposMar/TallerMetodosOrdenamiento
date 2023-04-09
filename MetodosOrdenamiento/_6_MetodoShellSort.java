@@ -3,7 +3,7 @@ package MetodosOrdenamiento;
 public class _6_MetodoShellSort {
     public static void shellSort(double a[]) {
 
-        System.out.println("\n\n6. Método shellSor");
+        System.out.println("\n\n6. ShellSort");
 
         for (int incr = a.length/2; incr>0; incr/= 2 ) {
             for (int i = incr ; i < a.length ; i++ ) {

@@ -4,7 +4,7 @@ public class _4_MetodoPorInsercion {
 
     public static void porInsercion( double arreglo[] ) {
 
-        System.out.println("\n\n4. Metodo por inserción");
+        System.out.println("\n\n4. Inserción");
         int n = arreglo.length;
         for (int i = 1; i < n; ++i) {
             double key = arreglo[i];

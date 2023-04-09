@@ -7,7 +7,7 @@ public class _3_MetodoPorSeleccion {
         double menor;
         i = 0;
 
-        System.out.println("\n\n3. Método por selección");
+        System.out.println("\n\n3. Selección");
 
         while( i < arreglo.length - 1) {
             menor = arreglo [i];

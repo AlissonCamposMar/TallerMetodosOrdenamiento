@@ -3,7 +3,7 @@ package MetodosOrdenamiento;
 public class _8_MetodoMergeSort {
 
     public static void MergeSort(double[] arreglo){
-        System.out.println("\n\n8. Método MergeSort");
+        System.out.println("\n\n8. MergeSort");
         mergeSort(arreglo);
         System.out.println("Arreglo ordenado");
     }

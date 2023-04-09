@@ -3,7 +3,7 @@ package MetodosOrdenamiento;
 public class _9_MetodoQuickSort {
 
     public static void QuickSort(double[] arreglo){
-        System.out.println("\n\n9. Método Quicksort");
+        System.out.println("\n\n9. Quicksort");
         quickSort(arreglo,0, arreglo.length-1);
         System.out.println("Arreglo ordenado");
     }
