@@ -25,9 +25,9 @@ public class Matriz {
 
     public static void calculoTiempoEjecucionMetodos(){
 
-        //5000, 7000, 9000, 11500
+        //5000, 7000, 9000, 11000, 11500, 11600
 
-        int tam = 11600;
+        int tam = 11000;
         double[] arreglo = ingresarNumeros(tam);
 
         System.out.println("\nTamanio del arreglo es: " + tam);
@@ -37,7 +37,7 @@ public class Matriz {
         double segundos;
 
         //1 Metodo Burbuja
-        tiempoInicioEjecucion = System.nanoTime();
+       tiempoInicioEjecucion = System.nanoTime();
         Burbuja(arreglo);
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
@@ -69,13 +69,13 @@ public class Matriz {
         System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
         //5 Método InsertionSortRecursive
-       /* tiempoInicioEjecucion = System.nanoTime();
+        tiempoInicioEjecucion = System.nanoTime();
         InsertionSortRecursive(arreglo);
         tiempoFinEjecucion = System.nanoTime();
         totalTiempoEjecucion = tiempoFinEjecucion - tiempoInicioEjecucion;
         segundos = (double) totalTiempoEjecucion/1000000000.0;
         System.out.println("Tiempo de ejecución en segundos: " + segundos);
-        */
+
         //6 Método shellSort
         tiempoInicioEjecucion = System.nanoTime();
         shellSort(arreglo);
@@ -116,7 +116,7 @@ public class Matriz {
         segundos = (double) totalTiempoEjecucion/1000000000.0;
         System.out.println("Tiempo de ejecución en segundos: " + segundos);
 
-        //11 Método HeapSort
+      //11 Método HeapSort
         tiempoInicioEjecucion = System.nanoTime();
         HeapSort(arreglo);
         tiempoFinEjecucion = System.nanoTime();
